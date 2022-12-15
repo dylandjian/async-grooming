@@ -86,10 +86,10 @@ crontab -e
 
 will open the crontab edition menu.
 How it works is that for each line in the file it is going to create a cronjob
-at the specified times. I recommand using [https://crontab.guru/] in order to find
-the pattern that you want. Then on the right side of the timer, the command that
-needs to be executed. I recommand making a small script which exports the PATH
-and execute the bot. Something along these lines :
+at the specified times. I recommand using [crontab guru](https://crontab.guru/)
+in order to find the pattern that you want. Then on the right side of the timer,
+the command that needs to be executed. I recommand making a small script which
+exports the PATH and execute the bot. Something along these lines :
 
 ```sh
 #!/bin/sh
