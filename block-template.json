@@ -1,0 +1,72 @@
+{
+  "core": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Hello, _Grooming Bot_ at your service! @here\nHere is your daily update on the current tickets :smile:"
+      }
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Tickets ready to be groomed"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Tickets currently being groomed"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "text": {
+        "type": "plain_text",
+        "text": "Tickets that need update"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Thanks for your attention, _Grooming Bot_"
+      }
+    }
+  ],
+  "message": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": ""
+      },
+      "accessory": {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "emoji": true,
+          "text": "Message"
+        },
+        "value": "",
+        "url": ""
+      }
+    },
+    {
+      "type": "context",
+      "elements": []
+    }
+  ]
+}
+
